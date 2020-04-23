@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- COLOR PICKER -->
+  <script type="text/javascript" src="assets/js/colorpicker.min.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="wrapper">
+      <a href="#"><img src="assets/img/logo.png" alt="logo" class="header__logo"></a>
+
+      <nav class="header__nav">
+        <a href="#" class="header__link">Наружная реклама</a>
+        <a href="#" class="header__link">Полиграфия</a>
+        <a href="#" class="header__link">Сувениры</a>
+        <a href="#" class="header__link">Контакты</a>
+        <a href="#" class="header__link">
+          <img src="assets/img/search.png">
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <form action="#">
+        <h1 class="main__title">Рассчитайте стоимость букв прямо сейчас</h1>
+
+        <div class="main__item no-flex">
+          <div class="main__subtitle">
+            <div class="main__number">1</div>
+            <div class="main__text">Выберите тип букв</div>
+          </div>
+
+          <div class="main__letters-type">
+            <div class="letters-type__item">
+              <input type="radio" name="letters-type" id="type1">
+              <label for="type1">Плоские</label>
+            </div>
+
+            <div class="letters-type__item">
+              <input type="radio" name="letters-type" id="type2">
+              <label for="type2">Плоские световые</label>
+            </div>
+
+            <div class="letters-type__item">
+              <input type="radio" name="letters-type" id="type3">
+              <label for="type3">Объемные</label>
+            </div>
+
+            <div class="letters-type__item">
+              <input type="radio" name="letters-type" id="type4">
+              <label for="type4">Объемные световые</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="main__product">
+          <div class="main__avatar">
+            <img src="assets/img/avatar.png">
+          </div>
+
+          <div class="main__characters">
+            <p class="characters__material">
+              <span class="name">Объемные световые</span>
+            </p>
+
+            <p class="characters__material">
+              <span class="name">Лицо:</span>
+              <span class="value">Акрил 3мм</span>
+            </p>
+
+            <p class="characters__material">
+              <span class="name">Бок:</span>
+              <span class="value">ПВХ 4мм</span>
+            </p>
+
+            <p class="characters__material">
+              <span class="name">Глубина буквы:</span>
+              <span class="value">от 70 до 130 мм</span>
+            </p>
+
+            <p class="characters__material">
+              <span class="name">Лицевая поверхность:</span>
+              <span class="value">акрил молочный 3 мм, оклеивается пленкой ORACAL 8500.</span>
+            </p>
+
+            <p class="characters__material">
+              <span class="name">Боковые стенки - ПВХ:</span>
+              <span class="value">пластик 3 мм, оклеиваются
+                пленкой ORACAL 641.</span>
+            </p>
+
+            <p class="characters__material">
+              <span class="name">Задняя стенка - ПВХ:</span>
+              <span class="value">пластик 5 мм.</span>
+            </p>
+
+            <p class="characters__material">
+              <span class="name">Электрофурнитура:</span>
+              <span class="value">светодиодные герметичные
+                кластеры белого свечения SMD 5050,
+                степень защиты IP67.</span>
+            </p>
+          </div>
+        </div>
+
+        <img src="assets/img/hr.png" class="hr">
+
+        <div class="main__item flex">
+          <div class="main__subtitle">
+            <div class="main__number">2</div>
+            <div class="main__text">Введите текст вывески</div>
+          </div>
+
+          <input type="text" class="text">
+        </div>
+
+        <img src="assets/img/hr.png" class="hr">
+
+        <div class="main__item flex">
+          <div class="main__subtitle">
+            <div class="main__number">3</div>
+            <div class="main__text">Высота букв</div>
+          </div>
+
+          <div class="letter-height">
+            <div class="btn__minus">-</div>
+            <input type="text" class="letter-height__num" value="50">
+            <div class="btn__plus">+</div>
+            <p>* указывается высота<br>заглавной буквы в см</p>
+          </div>
+        </div>
+
+        <img src="assets/img/hr.png" class="hr">
+
+        <div class="main__item flex">
+          <div class="main__subtitle">
+            <div class="main__number">4</div>
+            <div class="main__text">Выберите шрифт</div>
+          </div>
+
+          <div class="innerFonts">
+            <div class="innerFonts__item">
+              <input type="radio" name="font" id="font1">
+              <label for="font1"><img src="assets/img/f1.png"></label>
+            </div>
+
+            <div class="innerFonts__item">
+              <input type="radio" name="font" id="font2">
+              <label for="font2"><img src="assets/img/f2.png"></label>
+            </div>
+
+            <div class="innerFonts__item">
+              <input type="radio" name="font" id="font3">
+              <label for="font3"><img src="assets/img/f3.png"></label>
+            </div>
+
+            <div class="innerFonts__item">
+              <input type="radio" name="font" id="font4">
+              <label for="font4"><img src="assets/img/f4.png"></label>
+            </div>
+
+            <div class="innerFonts__item">
+              <input type="radio" name="font" id="font5">
+              <label for="font5"><img src="assets/img/f5.png"></label>
+            </div>
+
+            <div class="innerFonts__item">
+              <input type="radio" name="font" id="font6">
+              <label for="font6"><img src="assets/img/f6.png"></label>
+            </div>
+
+            <div class="innerFonts__item">
+              <input type="radio" name="font" id="font7">
+              <label for="font7"><img src="assets/img/f7.png"></label>
+            </div>
+
+            <div class="innerFonts__item">
+              <input type="radio" name="font" id="font8">
+              <label for="font8"><img src="assets/img/f8.png"></label>
+            </div>
+
+            <div class="innerFonts__item">
+              <input type="radio" name="font" id="font9">
+              <label for="font9"><img src="assets/img/f9.png"></label>
+            </div>
+
+            <div class="innerFonts__item">
+              <input type="radio" name="font" id="font10">
+              <label for="font10"><img src="assets/img/f10.png"></label>
+            </div>
+
+            <div class="innerFonts__item">
+              <input type="radio" name="font" id="font11">
+              <label for="font11"><img src="assets/img/f11.png"></label>
+            </div>
+          </div>
+        </div>
+
+        <img src="assets/img/hr.png" class="hr">
+
+        <div class="main__item flex">
+          <div class="main__subtitle">
+            <div class="main__number">5</div>
+            <div class="main__text">Выберите цвет</div>
+          </div>
+
+          <div class="choice-color">
+            <div class="chosen-color"></div>
+            <div id="color-picker" class="cp-default color-picker">
+              <div class="picker-wrapper">
+                <div id="picker" class="picker"></div>
+                <div id="picker-indicator" class="picker-indicator"></div>
+              </div>
+              <div class="slide-wrapper">
+                <div id="slide" class="slide"></div>
+                <div id="slide-indicator" class="slide-indicator"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <img src="assets/img/hr.png" class="hr">
+
+        <div class="preload">
+          <h2 class="preload__title">Предварительный просмотр</h2>
+          <div class="preload__block"></div>
+        </div>
+
+        <img src="assets/img/hr.png" class="hr">
+
+        <div class="main__item flex">
+          <div class="main__subtitle">
+            <div class="main__number">6</div>
+            <div class="main__text">Монтаж</div>
+          </div>
+
+          <input type="text" class="text txt" placeholder="Введите адрес">
+        </div>
+
+        <img src="assets/img/hr.png" class="hr">
+
+        <div class="sum">
+          <div class="sum__item">
+            <span>Итого:</span>
+            <input type="text" class="sum__input" readonly>
+          </div>
+
+          <div class="sum__item">
+            <span>с монтажом:</span>
+            <input type="text" class="sum__input_assembling" readonly>
+          </div>
+        </div>
+
+        <img src="assets/img/hr.png" class="hr">
+
+        <div class="feedback">
+          <div class="feedback__item">
+            <h3 class="feedback__subtitle">Введите Ваш e-mail:</h3>
+
+            <div class="feedback__form">
+              <input type="text" class="feedback__email">
+              <input type="submit" value="Отправить расчет" class="feedback__submit">
+            </div>
+          </div>
+          <div class="feedback__item">
+            <h3 class="feedback__subtitle">Введите Ваш номер телефона:</h3>
+
+            <div class="feedback__form">
+              <input type="text" class="feedback__phone">
+              <input type="submit" value="Перезвоните мне" class="feedback__submit">
+            </div>
+          </div>
+        </div>
+
+        <p class="info">Обращаем ваше внимание, что расчёт калькулятора носит исключительно информационный характер и ни
+          при каких условиях не является публичной офертой, определяемой положениями Статьи 437 ГК РФ.</p>
+
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrapper">
+      <div class="company-name">
+        2018 <br class="display_none">Рекламно-производственная <br class="display_none">компания <br
+          class="display_none">«НАРУЖКА»
+      </div>
+
+      <address>
+        <div class="address__phone">8 (8142) 76-01-10</div>
+        <div class="address__email">Office@poster-ptz.ru</div>
+      </address>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

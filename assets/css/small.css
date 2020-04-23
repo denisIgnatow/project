@@ -1,0 +1,125 @@
+header .wrapper {
+  align-items: flex-start;
+  padding-top: 15px;
+}
+
+.header__nav {
+  flex-direction: column;
+  align-items: flex-end;
+  width: 200px;
+}
+
+.header__link {
+  margin: 5px 0;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.header__link:hover {
+  text-decoration: underline;
+}
+
+.main__letters-type {
+  flex-direction: column;
+}
+
+.letters-type__item {
+  margin: 10px 0;
+}
+
+.letters-type__item label {
+  min-width: 90vw;
+  padding: 10px 0;
+}
+
+.characters__material {
+  font-size: 18px;
+  margin: 12px 0;
+}
+
+form {
+  width: 100%;
+}
+
+.main__product {
+  flex-direction: column;
+  text-align: center;
+}
+
+.main__item {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.main__subtitle {
+  margin-bottom: 20px;
+}
+
+.text,
+.innerFonts,
+.txt {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.choice-color {
+  justify-content: space-around;
+  width: 100%;
+}
+
+.input-color {
+  width: 80%;
+}
+
+.sum {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sum__item {
+  margin-top: 15px;
+}
+
+.sum__item span {
+  display: inline-block;
+  min-width: 100px;
+}
+
+.feedback {
+  flex-direction: column;
+}
+
+.feedback__item {
+  margin-top: 15px;
+}
+
+.feedback__form {
+  flex-direction: column;
+}
+
+.feedback__email,
+.feedback__phone {
+  width: 70vw;
+}
+
+.feedback__submit {
+  align-self: flex-end;
+  margin-top: 10px;
+}
+
+.address__phone {
+  font-size: 14px;
+}
+
+.display_none {
+  display: inline;
+}
+
+.innerFonts__item {
+  width: 166.67px;
+}
+
+.innerFonts__item label {
+  min-height: 60px;
+}
